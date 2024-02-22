@@ -25,3 +25,13 @@ body{
     font-size: 32px;
 
 }
+
+.botoes{
+    background-color: var(--BOTAO-INATIVO);
+    color: var(--branco);
+    font-size: 24px;
+    margin-top: 16px;
+    padding: 0.5em 1em;
+    margin-bottom: 16px;
+
+}
