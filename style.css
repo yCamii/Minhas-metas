@@ -26,7 +26,7 @@ body{
 
 }
 
-.botao{
+.botoes{
     background-color: var(--BOTAO-INATIVO);
     color: var(--branco);
     font-size: 24px;
