@@ -26,13 +26,16 @@ body{
 
 }
 
-.botoes{
+.botao{
     background-color: var(--BOTAO-INATIVO);
     color: var(--branco);
     font-size: 24px;
     margin-top: 16px;
     padding: 0.5em 1em;
     cursor: pointer;
-    
+    width: 100%;
+    border-bottom: 4px solid var(--BOTAO-ATIVO);
+    border-left: 2px solid var(--BOTAO-ATIVO);
+    border-right;: 2px solid var(--BOTAO-ATIVO);
 
-}
+    
