@@ -37,5 +37,6 @@ body{
     border-bottom: 4px solid var(--BOTAO-ATIVO);
     border-left: 2px solid var(--BOTAO-ATIVO);
     border-right;: 2px solid var(--BOTAO-ATIVO);
+    border-top: none;
 
     
