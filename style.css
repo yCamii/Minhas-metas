@@ -76,6 +76,16 @@ body {
 .aba-conteudo {
     display: none;
 }
+.aba-conteudo-titulo-principal {
+    text-align: center;
+    font-size: 24px;
+}
+.aba-conteudo-titulo-sencundario {
+    text-align: center;
+    font-size: 16px;
+    color: var(--verde);
+
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
