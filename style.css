@@ -84,6 +84,7 @@ body {
     text-align: center;
     font-size: 16px;
     color: var(--verde);
+    text-transform: uppercase;
 
 }
 
