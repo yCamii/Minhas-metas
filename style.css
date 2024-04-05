@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
 
-:root{
+:root {
     --cor-do-fundo: #1e1e1e;
     --verde: #6FFF57;
     --branco: #FFFFFF;
@@ -43,15 +43,17 @@ body {
     padding: 0.5em 1em;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 100%;    
+    width: 100%;
     border-bottom: 2px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
+
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
+
 .botoes {
     display: block;
 }
@@ -61,17 +63,17 @@ body {
     border-bottom: 4px solid var(--verde);
 }
 
-.abas-texto{
-    background-color: var(--texto-fundo);    
+.abas-texto {
+    background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
 
-.aba-conteudo.ativo{
-display: block;
+.aba-conteudo.ativo {
+    display: block;
 }
 
-.aba-conteudo{
+.aba-conteudo {
     display: none;
 }
 
@@ -79,11 +81,12 @@ display: block;
     .botoes {
         display: flex;
     }
+
     .botao:first-child {
         border-radius: 40px 0 0 0;
     }
+
     .botao:last-child {
-       border-radius: 0 40px 0 0; 
+        border-radius: 0 40px 0 0;
     }
 }
-
