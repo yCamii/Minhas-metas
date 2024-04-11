@@ -1,5 +1,5 @@
 const botoes = document.querySelectorAll('.botao');
-const textos = document.querySelector('.aba-conteudo')
+const textos = document.querySelectorAll('.aba-conteudo')
 
 for (let i = 0; i < botoes.length; i++) {
     botoes[i].onclick = function () {
@@ -9,7 +9,7 @@ for (let i = 0; i < botoes.length; i++) {
             textos[j].classList.remove('ativo');
         }
         botoes[i].classList.add('ativo');
-       textos[i].classList.add('ativo');
+        textos[i].classList.add('ativo');
 
     }
 }
